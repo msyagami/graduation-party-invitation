@@ -40,7 +40,7 @@
   }
 
   #img-memorabilla-a {
-    background-image: url("./assets/grad_invitation_mobile.png") !important;
+    background-image: url("./assets/grad_invitation_mobile.webp") !important;
     background-size: 100% !important;
     background-attachment: fixed;
     background-position: center;
@@ -72,7 +72,7 @@
   }
 
   #img-memorabilla-a {
-    background-image: url("./assets/grad_invitation_mobile.png") !important;
+    background-image: url("./assets/grad_invitation_mobile.webp") !important;
     background-size: 200% !important;
     background-attachment: fixed;
     background-position: center;
@@ -99,7 +99,7 @@
     object-fit: none !important;
   }
   #img-memorabilla-a {
-    background-image: url("./assets/grad_invitation.png") !important;
+    background-image: url("./assets/grad_invitation.webp") !important;
     background-size: 100% !important;
     background-attachment: fixed;
     background-position: center;
@@ -272,7 +272,7 @@ p {
 }
 
 #img-memorabilla-a {
-  background-image: url("./assets/grad_invitation.png");
+  background-image: url("./assets/grad_invitation.webp");
   height: 100%;
   z-index: 0;
   display: flex;
