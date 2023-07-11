@@ -6,6 +6,7 @@
   --msyagami-yellow: #ffca3a;
   --msyagami-green: #6a9955;
   --msyagami-blue: #2a71b7;
+  --offwhite: #f2f2f2;
 }
 
 @media screen and (max-width: 480px) {
@@ -112,7 +113,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #111;
-  color: #f2f2f2;
+  color: var(--offwhite);
 }
 
 section {
@@ -232,8 +233,8 @@ p {
     -45deg,
     var(--msyagami-blue),
     var(--msyagami-green),
-    #f2f2f2,
-    #f2f2f2
+    var(--offwhite),
+    var(--offwhite)
   );
   background-size: 400% 400% !important;
   background-clip: text;
@@ -267,7 +268,7 @@ p {
   background-size: 100% 0.1em, 0 0.1em;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
-  animation: underline 1.75s cubic-bezier(0.11, 0, 0, 1) 5s forwards;
+  animation: underline 1.75s cubic-bezier(0.11, 0, 0, 1) 12.5s forwards;
 }
 
 #img-memorabilla-a {
@@ -349,7 +350,7 @@ img#s-map {
 }
 
 .gh-link {
-  color: #f2f2f2;
+  color: var(--offwhite);
   text-decoration: none;
 }
 
